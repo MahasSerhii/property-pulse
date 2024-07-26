@@ -1,3 +1,6 @@
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
 import React from "react";
 
 export const metadata = {
@@ -7,7 +10,13 @@ export const metadata = {
 };
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <div>
+      <Hero />
+      <InfoBoxes />
+      <Footer />
+    </div>
+  );
 };
 
 export default HomePage;
