@@ -1,7 +1,7 @@
-import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import HomeProperties from "@/components/HomeProperties";
 import InfoBoxes from "@/components/InfoBoxes";
+import connectDB from "@/config/database";
 import React from "react";
 
 export const metadata = {
@@ -11,12 +11,12 @@ export const metadata = {
 };
 
 const HomePage = () => {
+  connectDB();
   return (
     <div>
       <Hero />
       <InfoBoxes />
       <HomeProperties />
-      <Footer />
     </div>
   );
 };
