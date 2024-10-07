@@ -23,7 +23,7 @@ function InfoBoxes() {
             backgroundColor="bg-blue-100"
             buttonInfo={{
               text: "Add Property",
-              link: "/property/add",
+              link: "/properties/add",
               backgroundColor: "bg-blue-500",
             }}
           >
