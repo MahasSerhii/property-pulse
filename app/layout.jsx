@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import AuthProvider from "@/components/AuthProvider";
 import { ToastContainer } from "react-toastify";
 import "@/assets/styles/global.css";
+import "photoswipe/dist/photoswipe.css";
 import "react-toastify/dist/ReactToastify.css";
 import { GlobalProvider } from "@/context/GlobalContext";
 
